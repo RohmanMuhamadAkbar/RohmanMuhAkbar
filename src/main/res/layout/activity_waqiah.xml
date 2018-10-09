@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.prawiraadi.sejarahislam.waqiah">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="239dp"
+        android:layout_height="218dp"
+        android:layout_marginStart="59dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/w"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="370dp"
+        android:layout_height="179dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="8dp"
+        android:text="Surat Al Waqiah ini terdapat ayat sebanyak 96 dan dinamakan Surat Al Waqiah karena sesuai dengan ayat yang pertama yakni al-waqiah atau memiliki arti kiamat. Sedangkan isi dari Surat Al Waqiah menceritakan tentang bagaimana hari kiamat tersebut akan terjadi dan juga balasan bagi orang mukmin dan juga orang kafir"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="8dp"
+        android:onClick="back2"
+        android:text="Back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+</android.support.constraint.ConstraintLayout>
